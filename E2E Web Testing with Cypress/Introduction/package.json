@@ -1,0 +1,17 @@
+{
+	"scripts": {
+		"cypress:open": "npx cypress open",
+		"test:chrome": "cypress run --browser chrome",
+		"test:edge": "cypress run --browser edge",
+		"test:electron": "cypress run",
+		"test:firefox": "cypress run --browser firefox",
+		"test:dev": "npm test --env=dev",
+		"test:dev:chrome": "cypress run test:dev --browser chrome",
+		"test:dev:edge": "cypress run test:dev --browser edge",
+		"test:dev:electron": "cypress run test:dev",
+		"test:dev:firefox": "cypress run test:dev --browser firefox"
+	},
+	"devDependencies": {
+		"cypress": "^13.3.0"
+	}
+}
