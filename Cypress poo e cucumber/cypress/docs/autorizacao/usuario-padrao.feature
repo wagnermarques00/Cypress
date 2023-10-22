@@ -1,4 +1,3 @@
-# language: pt
 Feature: Autenticação no Swag Labs
   Rule: O usuário só pode acessar a página após digitar todas as informações corretamente
 
