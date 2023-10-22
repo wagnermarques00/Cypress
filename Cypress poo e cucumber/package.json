@@ -1,0 +1,24 @@
+{
+	"name": "cypress-poo",
+	"version": "1.0.0",
+	"description": "testando poo com cypress",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"cypress",
+		"eslint",
+		"poo",
+		"standardJs"
+	],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"cypress": "^13.3.2",
+		"eslint-config-standard": "^17.1.0",
+		"eslint-plugin-cypress": "^2.15.1"
+	},
+	"dependencies": {
+		"eslint": "^8.52.0"
+	}
+}
